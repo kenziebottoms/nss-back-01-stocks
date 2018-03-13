@@ -2,20 +2,21 @@
 
 "use strict";
 
-const https = require("https");
+const { get } = require("https");
 
 const iex = "https://api.iextrading.com/1.0";
 
 const { argv: [,,symbol] } = process;
 
-https.get(`${iex}/deep?symbols=${symbol.trim()}`, res => {
+get(`${iex}/deep?symbols=${symbol.trim()}`, res => {
     let body = "";
     res.on("data", d => {
         body += d;
     });
     res.on("end", () => {
         let data = JSON.parse(body);
-        let prices = data.trades.map(t => t.price);
+        let { trades } = data;
+        let prices = trades.map(t => t.price);
         let average = avg(prices);
         if (average) {
             console.log(average);
