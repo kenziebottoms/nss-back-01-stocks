@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/mvp-working-green.svg)
 ![](https://img.shields.io/badge/data-iex_api-yellow.svg)
-![](https://img.shields.io/badge/bonus-wip-yellow.svg)
+![](https://img.shields.io/badge/bonus-working-green.svg)
 
 ## Run locally
 
