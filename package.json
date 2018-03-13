@@ -1,0 +1,23 @@
+{
+  "name": "stocks",
+  "version": "1.0.0",
+  "description": "Write a program that performs an HTTP GET request to get the average stock price. Use the first argument for a ticker symbol. Use the `get` method in the `http` module with the API provided by [IEX API](https://iextrading.com/developer/).",
+  "main": "stocks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenziebottoms/nss-back-01-stocks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenziebottoms/nss-back-01-stocks/issues"
+  },
+  "homepage": "https://github.com/kenziebottoms/nss-back-01-stocks#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
