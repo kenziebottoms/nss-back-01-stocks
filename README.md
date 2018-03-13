@@ -47,7 +47,7 @@ $123.45
     const getJSON = (url, cb) => { ... }
     getJSON('http://example.com', data => { ... })
     ```
-    - [ ] Promisify the getJSON function:
+    - [x] Promisify the getJSON function:
 
     ```js
     const getJSON = url => { ... }
