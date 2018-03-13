@@ -39,10 +39,10 @@ $123.45
 ## Bonus
 
 - [x] Avoid using encoded characters in your url: %22%3A%5B%22c%22%5D%7D%5D%7D
-- [ ] Full Destructuring
+- [x] Full Destructuring
     - [x] on the API response object
     - [x] and `http` module
-- [ ] Abstract a getJSON function. (This is good practice for when we write our own APIs):
+- [x] Abstract a getJSON function. (This is good practice for when we write our own APIs):
     ```js
     const getJSON = (url, cb) => { ... }
     getJSON('http://example.com', data => { ... })
